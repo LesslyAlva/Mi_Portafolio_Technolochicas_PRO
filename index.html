@@ -1,88 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lessly Alvarado</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <!---Este link es para iconos-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessly Alvarado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!---Este link es para iconos-->
+  <link rel="stylesheet" href="style.css">
+
 </head>
-<body class="p-3 mb-2 bg-black text-white">
-    <header class="p-3 text-bg-dark">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-            </ul>
+
+<body class="p-3 mb-2">
+  <header class="p-3 ColorBarra ">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#Habilidades" class="nav-link px-2 ColorBarra">Habilidades</a></li>
+          <li><a href="#Proyectos" class="nav-link px-2 ColorBarra">Proyectos</a></li>
+          <li><a href="#Testimonios" class="nav-link px-2 ColorBarra">Testimonios</a></li>
+          <li><a href="#Contacto" class="nav-link px-2 ColorBarra">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <section id="Perfil" class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <img src="assets/Aizawa Tomo.jpeg" alt="Imagen de perfil" class="img-thumbnail rounded mx-auto d-block"
+          style="height: 300px; width: 320px;">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 id="NombreAnimacion" class="fw-light">Lessly Alvarado</h1>
+          <p class="lead">Inserte descripción de mi misma</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Habilidades">
+      <h1 class="Padding">HABILIDADES</h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#toggles2"></use>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2">Profesional</h3>
+            <p>Inserte habilidad.</p>
           </div>
         </div>
-      </header>
-    <main>
-        <section id="Perfil">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#cpu-fill"></use>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2">Habilidad2</h3>
+            <p>Inserte habilidad.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#tools"></use>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2">Habilidad3</h3>
+            <p>Inserte habilidad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        </section>
-        <section id="Habilidades" >
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
-                  <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-                  </div>
-                  <div>
-                    <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="btn btn-primary">
-                      Primary button
-                    </a>
-                  </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                  <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
-                  </div>
-                  <div>
-                    <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="btn btn-primary">
-                      Primary button
-                    </a>
-                  </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                  <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
-                  </div>
-                  <div>
-                    <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="btn btn-primary">
-                      Primary button
-                    </a>
-                  </div>
-                </div>
+    <section id="Proyectos">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h1>PROYECTOS</h1>
+
+        <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg FondoProyectoPaginaMiraculous">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <a href="https://jolly-kheer-5b0d98.netlify.app"
+                  class="link-light link-offset-2 link-underline link-underline-opacity-0">
+                  <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Página Web de Miraculous</h4>
+                </a>
               </div>
-        </section>
-        <section id="Proyectos">
+            </div>
+          </div>
 
-        </section>
-        <section id="Testimonios">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg FondoProyectoClonDeGoogle">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <a href="https://clever-phoenix-a407fe.netlify.app"
+                  class="link-light link-offset-2 link-underline link-underline-opacity-0">
+                  <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google personalizado</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
-        </section>
-        <section id="Contacto">
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <section id="Testimonios">
+      <h1 class="Padding">TESTIMONIOS</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h3 class="fw-normal">Testimonio1</h3>
+          <p>Inserte testimonio.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h3 class="fw-normal">Testimonio2</h3>
+          <p>Inserte testimonio.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h3 class="fw-normal">Testimonio3</h3>
+          <p>Inserte testimonio.</p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+    </section>
+    <section id="Contacto">
+      <h1>CONTÁCTAME</h1>
+      <div class="container text-center">
+        <div class="row align-items-center AlturaContenedor">
+          <div class="col">
+            <a class="icon-link" href="https://github.com/LesslyAlva">
+              <i class="bi bi-github FontSize ColorIcono"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="icon-link" href="#">
+              <i class="bi bi-linkedin FontSize ColorIcono"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="icon-link" href="https://www.instagram.com/lesslyalva/">
+              <i class="bi bi-instagram FontSize ColorIcono"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="icon-link" href="https://www.tiktok.com/@lessly_alvarado26">
+              <i class="bi bi-tiktok FontSize ColorIcono"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="icon-link" href="https://stackoverflow.com/users/22513789/lesslyalva">
+              <i class="bi bi-stack-overflow FontSize ColorIcono"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="icon-link" href="https://wa.me/qr/N3K3YGGJ7NSTL1">
+              <i class="bi bi-whatsapp FontSize ColorIcono"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="py-3 my-4 border-top">
+    <div>
+      <span class="text-light CentrarSpan">© 2023 Lessly Alvarado | Lessly Alva | (Programa Technolochicas PRO)</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

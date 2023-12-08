@@ -1,0 +1,56 @@
+body {
+    background-color: #160d27;
+    color: #C5B3E6;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ColorBarra {
+    background-color: #2C1A4D;
+    color: #A98EDA;
+}
+
+h1 {
+    color: #59359A;
+}
+
+
+h3 {
+    color: #8C68CD;
+}
+
+.Padding {
+    padding: 1em;
+}
+
+.FondoProyectoClonDeGoogle {
+    padding: 0;
+    margin: 0;
+    background-image: url('assets/ClonDeGoogle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FondoProyectoPaginaMiraculous {
+    padding: 0;
+    margin: 0;
+    background-image: url('assets/PaginaMiraculous.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CentrarSpan {
+    display: flex;
+    justify-content: center;
+}
+
+.FontSize {
+    font-size: 100px;
+}
+
+.AlturaContenedor {
+    height: 300px;
+}
+
+.ColorIcono {
+    color: #6F42C1;
+}
