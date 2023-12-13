@@ -8,7 +8,7 @@ let typewriter = new Typewriter(NombreAnimacion, {
 typewriter.typeString('Lessly Alvarado')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Desarrolladora en proceso')
+    .typeString('Desarrolladora Frontend Junior')
     .pauseFor(2500)
     .deleteAll()
     .start();

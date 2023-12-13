@@ -54,3 +54,7 @@ h3 {
 .ColorIcono {
     color: #6F42C1;
 }
+
+Borde {
+    border-radius: 50%;
+}
